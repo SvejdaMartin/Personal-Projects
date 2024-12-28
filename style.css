@@ -1,1 +1,9 @@
-/* css file*/
+nav.bg-dark{
+    background-color: #0f1010 !important;
+}
+section.bg-dark{
+    background-color: #0f1010 !important;
+}
+.text-custom-gray{
+    color: red;
+}
