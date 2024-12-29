@@ -5,8 +5,11 @@ section.bg-dark{
     background-color: #0f1010 !important;
 }
 .responsive-img {
-    width: 75%; /* Výchozí šířka pro mobilní zobrazení */
+    width: 50%; /* Výchozí šířka pro mobilní zobrazení */
     max-width: 100%; /* Zajišťuje, že obrázek nebude větší než rodič */
+  }
+  .grey-text{
+    color: #999;
   }
   @media (min-width: 576px) {
     .responsive-img {
