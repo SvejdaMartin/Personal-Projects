@@ -4,6 +4,12 @@ nav.bg-dark{
 section.bg-dark{
     background-color: #0f1010 !important;
 }
-.text-custom-gray{
-    color: red;
-}
+.responsive-img {
+    width: 75%; /* Výchozí šířka pro mobilní zobrazení */
+    max-width: 100%; /* Zajišťuje, že obrázek nebude větší než rodič */
+  }
+  @media (min-width: 576px) {
+    .responsive-img {
+      width: 25%; /* Na středních a větších obrazovkách */
+    }
+  }
