@@ -1,18 +1,45 @@
-nav.bg-dark{
-    background-color: #0f1010 !important;
+nav.bg-dark {
+  background-color: #0f1010 !important;
 }
-section.bg-dark{
-    background-color: #0f1010 !important;
+
+section.bg-dark {
+  background-color: #0f1010 !important;
+}
+.name-style{
+  margin-bottom: 20px;
 }
 .responsive-img {
-    width: 50%; /* Výchozí šířka pro mobilní zobrazení */
-    max-width: 100%; /* Zajišťuje, že obrázek nebude větší než rodič */
+  width: 300px; /* Nastavte pevnou šířku obrázku */
+  height: auto; /* Udržujte poměr stran obrázku */
+  max-width: 100%; /* Ujistíme se, že obrázek se nebude zvětšovat mimo jeho rodičovský element */
+}
+
+.grey-text {
+  color: #999;
+}
+
+/* Tablety: Obrázek a text pod sebou */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .d-flex {
+    flex-direction: column; /* Obrázek a text pod sebou */
   }
-  .grey-text{
-    color: #999;
+
+  .responsive-img {
+    width: 300px; /* Pevná šířka obrázku i na tabletech */
   }
-  @media (min-width: 576px) {
-    .responsive-img {
-      width: 25%; /* Na středních a větších obrazovkách */
-    }
+
+  .ms-lg-5 {
+    text-align: left; /* Zarovnání textu vlevo na tabletech */
   }
+}
+
+/* Větší obrazovky (desktop): Text a obrázek vedle sebe */
+@media (min-width: 992px) {
+  .d-flex {
+    flex-direction: row; /* Obrázek a text vedle sebe */
+  }
+
+  .responsive-img {
+    width: 300px; /* Obrázek s konstantní šířkou i pro větší obrazovky */
+  }
+}
