@@ -10,7 +10,7 @@
 </head>
 <body>   
         <!--Navbar--> 
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top">
             <div class="container">
                  <a href="#" class="navbar-brand"><img src="img/logo.png" alt="Logo" style="height: 70px;"></a>
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
@@ -30,10 +30,10 @@
             </div>
         </nav>
         <!--About-->
-        <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <section id="about" class="bg-dark text-light p-5 text-center text-sm-start">
             <div class="container">
               <div class="d-flex flex-column flex-lg-row align-items-center">
-                <!-- Obrázek -->
+                <!-- Profile Photo -->
                 <img class="img-fluid rounded-circle responsive-img mb-3" src="img/MSb&w.JPG" alt="Martin Svejda portrait">
                 <!-- Text -->
                 <div class="ms-lg-5 text-center text-lg-start">
@@ -45,9 +45,93 @@
               </div>
             </div>
           </section>
-          
-          
-        
+          <!--Projects-->
+          <section id="projects" class="text-center">
+            <div class="container">
+              <h2 class="section-title">Portfolio</h2>
+              <p class="lead">Check out some of my projects</p>
+              <div class="projects-grid">
+                <div class="project-item">
+                  <div class="project-image">
+                    <img src="img/logo1.png" alt="Lego artist Alice Finch">
+                  </div>
+                  <div class="project-text">
+                    <p class="project-category">Logo Design</p>
+                    <h3 class="project-title">Lego artist Alice Finch</h3>
+                    <a href="https://www.bippitybricks.com/" target="_blank" class="project-link">bippitybricks.com</a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-image">
+                    <img src="img/logo2.png" alt="Reality Super, Prague">
+                  </div>
+                  <div class="project-text">
+                    <p class="project-category">Logo Design</p>
+                    <h3 class="project-title">Reality Super, Prague</h3>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-image">
+                    <img src="img/PersonalWeb.png" alt="My Website">
+                  </div>
+                  <div class="project-text">
+                    <p class="project-category">Web Development</p>
+                    <h3 class="project-title">My Website & Logo</h3>
+                    <a href="https://svejdamartin.github.io/Personal-Projects/" target="_blank" class="project-link">Link</a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-image">
+                    <img src="img/exampleOutput.png" alt="To Do App">
+                  </div>
+                  <div class="project-text">
+                    <p class="project-category">Java OOP Console App</p>
+                    <h3 class="project-title">Stone Wall Calculator</h3>
+                    <a href="https://github.com/SvejdaMartin/Cal-Stone-Wall" target="_blank" class="project-link">GitHub Code</a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-image">
+                    <img src="img/desktopExample.png" alt="To Do App">
+                  </div>
+                  <div class="project-text">
+                    <p class="project-category">Java Spring Boot</p>
+                    <h3 class="project-title">To Do App</h3>
+                    <a href="https://github.com/SvejdaMartin/ToDoApp" target="_blank" class="project-link">GitHub Code</a>
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-image">
+                    <img src="img/js1.png" alt="Currency Converter">
+                  </div>
+                  <div class="project-text">
+                    <p class="project-category">Javascript</p>
+                    <h3 class="project-title">Currency Converter</h3>
+                    <a href="https://github.com/Svejdam13/CurrencyConverter" target="_blank" class="project-link">GitHub Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--Contact-->
+          <section id="contact" class="text-center">
+            <div class="container">
+              <h2 class="section-title">Contact me</h2>
+              <p class="lead">If you're interested in collaboration or have any questions, feel free to reach out to me through the links below.</p>
+              <div class="contact-links text-center">
+                <p><a href="mailto:svejdam13@gmail.com" style="color: #fff; text-decoration: none;">Gmail</a></p>
+                <p><a href="https://www.linkedin.com/in/martin-svejda-83590232a/" target="_blank" style="color: #fff; text-decoration: none;">LinkedIn</a></p>
+                <p><a href="https://github.com/SvejdaMartin" target="_blank" style="color: #fff; text-decoration: none;">GitHub</a></p>
+             </div>
+            </div>
+          </section>
+          <!--Footer-->
+          <footer id="footer" class="p-4 text-white text-center position-relative" >
+              <div class="container">
+                <p>Copyright &copy; 2024 Svejda Martin</p>
+                <a href="#" class="position-absolute bottom-0 end-0 pb-3 pe-2"><img src="img/logo-dark.png" alt="logo-dark"></a>
+              </div>
+          </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
