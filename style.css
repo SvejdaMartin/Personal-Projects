@@ -27,9 +27,9 @@ section.bg-dark {
   margin-bottom: 20px;
 }
 .responsive-img {
-  width: 300px; /* Nastavte pevnou šířku obrázku */
-  height: auto; /* Udržujte poměr stran obrázku */
-  max-width: 100%; /* Ujistíme se, že obrázek se nebude zvětšovat mimo jeho rodičovský element */
+  width: 300px; /* Nastavuje pevnou šířku obrázku */
+  height: auto; /* Udržuje poměr stran obrázku */
+  max-width: 100%; /* Pusobi tak, že obrázek se nebude zvětšovat mimo jeho rodičovský element */
 }
 .grey-text {
   color: #999;
