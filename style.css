@@ -79,7 +79,6 @@ section.bg-dark {
 }
 
 /* Portfolio section */
-
 #projects {
   background-color: #0f1010;
   padding-top: 120px;
@@ -158,7 +157,7 @@ section.bg-dark {
   font-size: 1.05rem;
   color: #fff;
 }
-/*Contact info*/
+/*Contact*/
 #contact {
   background-color: #0f1010;
   padding-top: 120px;
